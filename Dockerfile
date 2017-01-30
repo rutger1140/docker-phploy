@@ -13,6 +13,7 @@ RUN apk add --update \
     php-phar \
     php-zip \
     php-ctype \
+    php-xmlrpc \
     php-zlib \
     && rm -rf /var/cache/apk/*
 
