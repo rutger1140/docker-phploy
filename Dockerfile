@@ -19,6 +19,6 @@ RUN apk add --update \
 
 WORKDIR /root
 RUN git clone --depth 1 https://github.com/banago/PHPloy.git \
-		&& mv PHPloy/bin/phploy.phar /usr/bin/phploy \
+		&& mv PHPloy/bin/phploy /usr/bin/phploy \
 		&& rm -rf PHPloy
 
